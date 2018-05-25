@@ -7,7 +7,7 @@ const _cliProgress = require('cli-progress');
 const command = process.argv[2]
 const dirName = process.argv[3]
 
-const version = "1.0.0"
+const version = "1.0.1"
 
 const bar1 = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic)
 let time = 0

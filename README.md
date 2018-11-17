@@ -3,28 +3,17 @@
 This is CLI app for starting web apps.
 
 ## Installation
+
 ```
-$ npm install -g qwe
+$ yarn global add qwe-cli
+or
+$ npm install -g qwe-cli
 ```
 
 ## Usage
+
 ### Initialize
-```
-$ qwe init YOUR_APP_NAME
-```
 
-### Build
 ```
-$ cd YOUR_APP_NAME/
-$ qwe build
-```
-
-### Production build
-```
-$ qwe build -p
-```
-
-### Develop
-```
-$ qwe serve
+$ qwe
 ```
